@@ -1,0 +1,25 @@
+
+.contain{
+    display: flex;
+    width: 50vw;
+    margin-left: 25vw;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content input,.content textarea{
+    width: 500px;
+}
+.contain h3, .contain h1{
+    text-align: center;
+}
+.Linka{
+    font-size: 20px;
+    align-self: center;
+    border-radius: 10px;  
+    border: 1px solid #eaeaea;
+    margin: 1rem;
+    padding: 1.5rem;
+    }

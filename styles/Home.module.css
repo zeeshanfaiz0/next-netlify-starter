@@ -1,0 +1,104 @@
+.container {
+  margin: 1rem;
+  margin-left: 15%;
+  padding: 1.5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 30px;
+  max-width:70vw;
+  display: flex;
+}
+.header{
+  margin: 1rem;;
+  padding: 1.5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.main {    
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card label{
+  font-size: 20px;
+  color: rgb(27, 84, 158);
+}
+.card {
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.card input,.card textarea {
+  margin-left:10px ;
+  font-size: 1rem;
+  color: cadetblue;
+  line-height: 1.5;
+  width: 500px;
+}
+.date{
+  margin-top:0px ;
+  padding-left: 10px;
+}
+.btn{
+  text-align: center;
+}
+.card button{
+  width: 200px;
+  font-size: 20px;
+  margin-top: 2%;
+}
+.card span{
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-b;
+}
+.card span:last-child{
+  height: 50px;
+}
+.spa{
+  margin-left: 23%;
+}
+.span{
+  margin-left: 27%;
+}
+.Linka{
+  font-size: 50px;
+  align-self: center;
+  border-radius: 10px;  
+  border: 1px solid #eaeaea;
+  margin: 1rem;
+  padding: 1.5rem;
+  }
+.Linka:hover{
+  border: 1.5px solid #ca3e3e; 
+}
+@media (max-width: 1150px) {
+  .card input,.card textarea {
+    margin-left:5px ;
+    font-size: 1rem;
+    color: cadetblue;
+    line-height: 1;
+    width: 350px;
+  }
+    
+}
+@media (max-width: 800px) {
+  .card input,.card textarea {
+    margin-left:5px ;
+    font-size: 1rem;
+    color: cadetblue;
+    line-height: 1;
+    width: 200px;
+  }
+    
+}
